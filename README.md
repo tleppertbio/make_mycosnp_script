@@ -45,3 +45,5 @@ See [pathogentotree suite](https://github.com/tleppertbio/pathogentotree/pathoge
 
 Here is an example of the type of file that is created by this make_mycosnp_scripts.py python program
 [example mycosnp processing file script](https://github.com/tleppertbio/pathogentotree/mycosnp.sample.script)
+
+![Diagram of mycosnp based workflow](./mycosnp-based-workflow.png)
