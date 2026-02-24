@@ -18,7 +18,7 @@ See [pathogentotree suite](https://github.com/tleppertbio/pathogentotree/pathoge
 
 ### Running make_mycosnp_script.py
 
-  **What does this do? **
+  **What does this do?**
   make_mycosnp_script.py reads in the sra_now.list and creates a vm processing script for each sample.
   These processing scripts need to be pushed (invoked) to an appropriately configured vm size and location. 
   The processing scripts interact with the pathogentotree docker image via a google vm.
@@ -26,7 +26,7 @@ See [pathogentotree suite](https://github.com/tleppertbio/pathogentotree/pathoge
   Edit differences are listed in .g.vcf.gz and .maple files.
   [Diagram of mycosnp based workflow](./mycosnp-based-workflow.png)
 
-  **How to run it? **
+  **How to run it?**
   python3 make_mycosnp_script.py
 
   **Things to know **
