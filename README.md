@@ -29,7 +29,8 @@ See [pathogentotree suite](https://github.com/tleppertbio/pathogentotree/pathoge
   **How to run it?**
   python3 make_mycosnp_script.py
 
-  **Things to know **
+  **Things to know**
+  
   - When the size of the sample file is >= 9GB this script creates two vm process scripts SRR#-startup-vm1.script and SRR#-startup-vm2.script.
   - The two scripts are created as separate processes, because the second half of the protocol can take longer than the 24 hour preemptible window.
   - The second script *-vm2.script is invoked with non-preemptible parameters.
